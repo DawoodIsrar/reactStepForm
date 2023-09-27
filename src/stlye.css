@@ -1,0 +1,51 @@
+.npc-section-description {
+    font-family: 'Century Gothic';
+    text-align: center;
+}
+/* .important-read {
+        text-align: left;
+          font-size: 16px;
+          border: '1px solid #ccc';
+          padding: '0px 10px 20px 10px';
+          margin: '0px 50px 0px 50px';
+} */
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #E4E7EC;
+        padding: 0px 20px;
+    }
+    .leftt {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+        align-items: center;
+    }
+    .rightt i {
+        color: #2C6CA8;
+    }
+
+    .bi {
+        color: #962520;
+        font-size: 30px!important;
+    }
+.inputs-section{
+    margin-bottom: 30px;
+
+}
+.inputs-section p{
+    font-family: Sans-serif;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+.npc-section-description-2 {
+    font-family: 'Century Gothic';
+    text-align: left;
+    margin-top: 20px;
+}
+#people{
+    width: 100%;
+    height: 40px;
+}
