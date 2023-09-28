@@ -1,12 +1,17 @@
 import React from 'react';
-import { CssBaseline, Container, Paper } from '@material-ui/core';
+import { CssBaseline, Container, Paper,IconButton  } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import logo from '../src/img/stellar-career-college-logo-1@2x.png'; // Check the path
-
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import PinterestIcon from '@mui/icons-material/Pinterest';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const useStyles = makeStyles((theme) => ({
     root: {
         backgroundColor: '#962520',
-        minHeight: '100vh',
+        minHeight: '10vh',
         display: 'flex',
         flexDirection: 'column',
     },
@@ -88,13 +93,31 @@ function Footer() {
                     </Paper>
                 </Container>
                 <div className='f-logo'>
-                    <h3>Copyright 2023 © CXS  All Rights Reserved.</h3>
-                    <div className='f-logo'>
-                        <h2>Ready To Get Started?</h2>
-                        <span><button>Contact us</button></span>
-                        
+                <h3>Copyright 2023 © CXS  All Rights Reserved.</h3>
+                    <div className='f-logo-2'>
+                    <div>
+
+                        <FacebookIcon className={classes.socialIcon} />
+                 
+                
+                        <InstagramIcon className={classes.socialIcon} />
+                  
+                    
+                        <TwitterIcon className={classes.socialIcon} />
+                   
+                  
+                        <PinterestIcon className={classes.socialIcon} />
+                    
+                   
+                        <YouTubeIcon className={classes.socialIcon} />
+                    
+                  
+                        <LinkedInIcon className={classes.socialIcon} />
+                   
+                </div>
                     </div>
                 </div>
+               
             </div>
         </>
     );

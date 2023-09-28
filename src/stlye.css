@@ -98,10 +98,19 @@ color:#2C6CA8 ;
     color: white;
     gap: 50px;
 }
+.f-logo-2{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
 .f-logo button{
     width: 150px;
     height: 40px;
     border-radius: 10px;
     border: none;
+    margin-top: 10px;
+}
+.icon{
+    color: #cc1919;
     margin-top: 10px;
 }
