@@ -117,7 +117,6 @@ function LinearStepper() {
 
   return (
     <div>
-      <p>dawood</p>
       <Stepper alternativeLabel activeStep={activeStep}>
         {steps.map((step, index) => {
           const labelProps = {};
